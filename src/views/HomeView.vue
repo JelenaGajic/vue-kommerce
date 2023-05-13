@@ -23,9 +23,9 @@ export default {
   },
   methods: {
     async getData() {
-      const res = await axios.get('/api/products');
+      const res = await axios.get('/api');
       console.log(res.data);
-    },
-  },
+    }
+  }
 };
 </script>
